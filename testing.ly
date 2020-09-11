@@ -1,0 +1,26 @@
+\version "2.18.2"
+\language "english"
+\header{
+  title = testing
+  subtitle = "DP2 Music"
+  composer = "Matthew Priskorn"
+}
+
+\score {  \new PianoStaff <<
+  \new Staff = "up" {
+    \tempo 4 = 100
+  {
+  d''2^"R-6"  d''4 fs'8 fs'8 f'2 cs''2 cs''16 b'8. g'8 as'8 gs'4 a'8 a'8 c''4 e''4 ds''8 f'16^"RI-7"  f'16 cs''8 d''4. fs'2 fs'8 gs'16 c''16 a'16 a'16 b'8 b'8 as'4. g'16 ds''16 e''16 d''16^"R-6"  fs'4 fs'8 f'8 cs''2 b'16 g'16 as'16 as'16 gs'4 a'4 c''8 c''8 e''2 e''2 ds''4 gs'2^"RI-10" e''4 e''4 f'8 a'8 b'8 ds''8 ds''2 c''8 d''8 d''4 cs''4 as'16 as'16 fs'8 g'16 b'16^"P-2"  c''16 gs'16 f'2 f'16 e''8 e''16 fs'4 ds''16 g'8. a'2 cs''2 cs''8. d''16 as'16 as'8. d''4^"RI-4"  as'4 b'4 b'8 ds''8 ds''2 f'8 f'8 a'16 fs'8. fs'2 gs'16 g'16 e''8 c''4 cs''2 b'8^"I-2"  b'8 as'4 as'8 d''8 d''2 f'8 fs'8 e''8 g'8 ds''8 cs''8 a'8 a'8 gs'8. c''16 as'8.^"RI-0"  fs'16 g'4. g'8 b'8 cs''8 cs''4 f'8 d''8 e''8 ds''8 c''8 gs'8 gs'8. a'16 a'2 d''4^"R-6"  fs'2 fs'4 f'8 f'8 cs''8 b'4. b'16 g'8. as'4 gs'2 a'2 a'8 c''8 e''8 ds''8 cs''16^"P-4"  cs''8. d''8 as'8 g'4 g'4 fs'4. gs'8 gs'4 f'8 a'4. b'4 ds''8 ds''8 e''8 c''8 c''8 e''8^"P-7"  f'8 cs''8 cs''2 as'4 as'4 a'4 a'2 b'8. gs'16 c''8. d''16 d''8 fs'8 g'2 ds''4 f'16^"RI-7"  cs''8 d''16 fs'4 fs'2 gs'4 c''8 a'4. b'4 b'2 as'8 as'8 g'2 ds''16 e''16 e''8 ds''4^"RI-5"  ds''4 b'16 c''8. e''4 e''4 fs'16 as'8 g'16 g'4 a'4 a'8 gs'8 f'8 cs''8 d''8 gs'8^"R-0"  c''4 b'2 b'4 g'4. g'8 f'16 f'8 cs''16 e''4 e''4 d''4 ds''8 fs'8 as'16 a'8. c''8^"R-4"  c''16 e''16 ds''2 b'8 b'8 a'8 f'8 gs'2 fs'4 g'2 as'4 d''8 d''8 cs''4 cs''8 f'8^"I-8"  e''2 gs'2 b'16 c''16 c''16 as'16 as'4 cs''2 a'8 a'8 g'16 ds''16 d''16 d''16 fs'16 g'8.^"R-11"  b'4 as'8. fs'16 fs'4 e''2 c''16 ds''8. ds''4 cs''4 d''16 f'8. f'4 a'4 a'16 gs'8 gs'16 e''8^"P-7"  f'8 cs''4 as'4 a'8 a'8 b'2 b'2 gs'4 gs'8 c''16 d''16 fs'8 g'8 g'4 ds''4 c''4^"R-4"  e''8 ds''8 b'8 a'4. a'4. f'8 gs'8 gs'8 fs'2 g'4 g'4 as'16 d''16 cs''8 cs''8 fs'8^"I-9"  f'4 a'4. a'8 c''4 cs''4 b'8. d''16 as'4 as'2 gs'2 gs'4 e''4 ds''4 g'8 g'8 d''4^"R-6"  d''8 fs'8 fs'4. f'8 cs''2 cs''16 b'8 g'16 as'2 as'4 gs'4 a'4 c''2 e''4 ds''4 f'2^"RI-7"  f'4 cs''4. cs''8 d''8 fs'8 gs'2 gs'8 c''8 a'4. b'8 as'4 g'4 g'4 ds''2 e''8 ds''8^"RI-5"  b'8 c''4. c''8. e''16 e''16 fs'16 as'8 g'4 a'8. a'16 gs'8. f'16 cs''8 d''8 d''4. a'8^"R-1"  cs''4 c''16 gs'8. gs'16 fs'8. d''8 f'8 f'4 ds''4 ds''8 e''16 g'16 g'2 b'2 as'16 ds''8.^"I-6"  ds''4 d''8 fs'4. fs'8 a'16 as'16 as'2 gs'4 b'8 g'4. f'4 cs''4. c''8 e''16 e''16 c''8^"RI-2"  gs'16 a'8. a'8 cs''8 cs''8 ds''8 g'4 e''4 fs'8 f'16 f'16 d''8 as'8 as'2 b'8 fs'8^"RI-8"  fs'4 d''8 d''8 ds''4 ds''4 g'8 a'8 cs''2 as'2 c''2 c''4 b'2 gs'2 e''2 e''16 f'16 gs'16^"R-0"  c''16 b'4 g'4 f'4 f'8 cs''8 cs''4 e''8 d''8 d''8. ds''16 fs'2 as'2 a'4. a'8 fs'8^"RI-8"  d''8 ds''8 ds''8 g'8 g'8 a'8 cs''16 as'16 as'8. c''16 b'16 b'8. gs'2 e''4 f'2 g'4^"I-10"  g'8 fs'8 as'8 cs''8 d''4 c''8 ds''8 b'4 a'4. a'8 f'2 f'8 e''8 e''4 gs'4 b'8^"R-3"  ds''4. d''16 as'16 as'8 gs'2 gs'2 e''4 e''2 g'2 f'8 fs'8 a'2 a'8 cs''8 c''4 f'2^"P-8"  fs'8 fs'8 d''8 b'4. as'8 as'8 c''8. a'16 a'2 cs''4 ds''4 g'4 gs'4 e''4 e''2 
+  }
+  }
+    \new Staff = "down" {
+    \clef bass 
+  \tempo 4 = 100
+  {
+  b,8^"P-2"  c4. gs,4 f4 e4. fs8 ds4 g2 g4 a,8 cs8 d4 d4 as,8 as,8 a,8^"I-1"  cs8 e2 f2 ds2 fs4 fs2 d4 c2 gs,4 g4 g4 b,16 e8.^"I-7"  ds16 ds8. g4 as,4 as,4 b,2 a,8 c8 gs,4 fs16 d16 cs8 f2 cs4.^"P-4"  d8 as,2 g8 fs8 gs,2 f4 f8 a,16 b,16 ds8 ds8 e2 c2 f4.^"R-9"  a,8 gs,4 e4 d8 as,8 cs4 b,4. c8 ds8 ds8 g4 fs4 fs4 ds8^"I-6"  ds16 d16 fs4 a,8 a,8 as,8 as,8 gs,8 b,4. g4. f8 cs8 c16 e16 e8 gs,16^"R-8"  g16 ds8 cs8 a,16 c16 as,8 as,8 b,8 b,8 d16 fs16 f8 gs,8^"P-11"  a,8 a,4. f4 d2 cs4 ds4 c2 e2 fs8 fs8 as,4 b,4 g8 ds8^"I-6"  d2 fs8 a,8 a,8 as,4. gs,4. b,8 g8 f8 cs2 c4 c2 e2 e2 e16 c16^"RI-6"  cs8 f2 g4 b,2 gs,2 gs,2 as,4 a,8 fs4. d4 ds2 g2^"R-11"  b,4 as,8. fs16 fs2 e2 c4 ds8 cs8 d8 f8 f2 a,4 gs,4. a,8^"I-0"  a,4 gs,2 c4 ds4. ds8 e8 d16 f16 cs8 b,8 g2 fs2 as,8 as,8 as,16 b,8^"P-1"  g16 e4 ds4 f2 d4 d4 fs16 gs,8. c4 cs8 a,8 e4^"I-7"  e4 ds4 g4 as,4 b,4 a,4 c4 c16 gs,16 gs,8 fs4 d16 cs16 f8 as,2^"RI-0"  fs4 g2 b,4 b,4 cs4 cs4 f16 d8 d16 e2 ds8 c8 gs,2 a,2 d2^"P-5"  ds8 b,4. b,4 gs,2 g16 a,8 fs16 fs2 as,8 c8 e4 f4 cs4 ds4^"I-6"  ds4 d2 fs16 a,16 as,8 gs,8 b,8 g4 g4 f4 cs4 c2 e2 e8 g4.^"RI-9"  ds4 e4 gs,4 gs,4 as,2 d8 d8 b,16 cs16 c8 a,8 f8 fs2 gs,8^"RI-10" e4. f8 a,8 b,16 ds16 c16 d16 d8 cs8 as,4. as,8 fs2 g4 c2^"P-3"  cs4 cs8. a,16 fs4 f8 g8 e2 e4 gs,2 as,2 d4 ds8 b,8 b,2 ds8^"I-6"  d8 fs4 fs2 a,2 as,2 gs,4 b,4 g2 f4 cs2 cs2 c4 e8 gs,4.^"P-11"  gs,2 a,8 f8 d4 d16 cs8. ds4 c2 e8 fs8 as,2 b,4 g4 g8 e8^"I-7"  ds8 g8 g4 as,8 b,8 a,16 c8 c16 gs,8 fs8 d4 d2 cs8 f4. c2^"P-3"  cs8 a,4. fs4 f8 g8 g4 e16 gs,8. gs,4 as,2 d2 ds8 b,8 e8^"P-7"  e8 f8 cs16 as,16 a,16 b,8 gs,16 c2 d8 d8 fs2 fs8 g8 ds8 d8^"R-6"  d4. fs8 f4 cs2 b,2 b,8 g8 as,8 as,8 gs,4 a,2 c2 e2 ds2 e8^"P-7"  f8 cs4 as,16 a,8. b,8 gs,8 c4 d8 fs4. fs4 g4 ds4 ds16 f16^"I-8"  f8 e2 gs,2 b,8 c8 as,4 cs4 a,2 g8 g8 ds4 d4. fs8 g8^"P-10"  gs,8 gs,4 e4 cs8 c8 d4 b,4 ds4 f4 a,4 as,4 fs16 fs8. b,4^"R-3"  ds8 d8 as,8 gs,8 e8 e8 g2 f4. fs8 a,4 cs4. c8 c4 b,8^"I-2"  as,8 d8. f16 fs2 fs16 e16 g16 g16 ds8 cs8 a,4 gs,4 c4 e16^"RI-6"  c8 c16 cs8 f8 g4 g8 b,4. gs,4. as,8 a,8 fs8 d4 d4 ds2 
+  }
+  }
+>>
+  \layout {}
+  \midi{}
+}
